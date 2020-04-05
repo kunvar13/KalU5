@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/kunvar13/KalU5.svg?style=svg)](https://circleci.com/gh/kunvar13/KalU5)
 
 ## Project Overview
 
