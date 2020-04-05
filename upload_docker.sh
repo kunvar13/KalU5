@@ -5,14 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=ada2ac014946
+dockerpath=532a7e37e3a9
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login --username=kunvar13
-docker tag $dockerpath kunvar13/kalpro5:project
+docker tag $dockerpath kunvar13/kalu5:project
 
 # Step 3:
 # Push image to a docker repository
-docker push kunvar13/kalpro5:project
+docker push kunvar13/kalu5:project
