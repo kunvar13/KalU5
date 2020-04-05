@@ -1,1 +1,20 @@
-<paste log output from Kubernetes-mediated prediction, here>
+function
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+
+Process exited with code: 0
+
+function
+Flag --generator has been deprecated, has no effect and will be removed in the future.
+Error from server (AlreadyExists): pods "kalproj5" already exists
+NAME       READY   STATUS             RESTARTS   AGE
+kalproj5   1/1     Running            0          95s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000

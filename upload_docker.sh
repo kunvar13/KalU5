@@ -5,7 +5,7 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=532a7e37e3a9
+dockerpath=9a6c440eea12
 
 # Step 2:  
 # Authenticate & tag

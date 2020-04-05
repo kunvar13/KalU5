@@ -4,14 +4,14 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath="kunvar13/kalu5"
+dockerpath="kunvar13/kalu5:project"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run kalpro5\
+kubectl run kalproj5\
     --generator=run-pod/v1\
     --image=$dockerpath\
-    --port=80 --labels app=kalpro5
+    --port=80 --labels app=kalproj5
 
 
 # Step 3:
@@ -20,5 +20,5 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a 
-kubectl port-forward kalpro5 8000:80
+kubectl port-forward kalproj5 8000:80
 
